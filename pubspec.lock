@@ -49,46 +49,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
-  camera:
-    dependency: "direct main"
-    description:
-      name: camera
-      sha256: "26ff41045772153f222ffffecba711a206f670f5834d40ebf5eed3811692f167"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.11.0+2"
-  camera_android_camerax:
-    dependency: transitive
-    description:
-      name: camera_android_camerax
-      sha256: abcfa1ac32bd03116b4cfda7e8223ab391f01966e65823c064afe388550d1b3d
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.6.10+3"
-  camera_avfoundation:
-    dependency: transitive
-    description:
-      name: camera_avfoundation
-      sha256: ca36181194f429eef3b09de3c96280f2400693f9735025f90d1f4a27465fdd72
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.9.19"
-  camera_platform_interface:
-    dependency: transitive
-    description:
-      name: camera_platform_interface
-      sha256: "2f757024a48696ff4814a789b0bd90f5660c0fb25f393ab4564fb483327930e2"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.10.0"
-  camera_web:
-    dependency: transitive
-    description:
-      name: camera_web
-      sha256: "595f28c89d1fb62d77c73c633193755b781c6d2e0ebcd8dc25b763b514e6ba8f"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.3.5"
   characters:
     dependency: transitive
     description:
@@ -349,14 +309,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.2.5"
-  google_fonts:
-    dependency: "direct main"
-    description:
-      name: google_fonts
-      sha256: df9763500dadba0155373e9cb44e202ce21bd9ed5de6bdbd05c5854e86839cb8
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.3.0"
   gotrue:
     dependency: transitive
     description:
@@ -374,7 +326,7 @@ packages:
     source: hosted
     version: "2.1.0"
   http:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: http
       sha256: "87721a4a50b19c7f1d49001e51409bddc46303966ce89a65af4f4e6004896412"
@@ -786,14 +738,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.2"
-  stream_transform:
-    dependency: transitive
-    description:
-      name: stream_transform
-      sha256: ad47125e588cfd37a9a7f86c7d6356dde8dfe89d071d293f80ca9e9273a33871
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.1"
   string_scanner:
     dependency: transitive
     description:
@@ -822,26 +766,34 @@ packages:
     dependency: "direct main"
     description:
       name: syncfusion_flutter_calendar
-      sha256: "20118a598cf5ae5b7ec84fa364e2b51070800f078466158fcd25864e1b5a2cfd"
+      sha256: "37d954997e73149280cd218124ffa3210b5e09711f1ec4fc0103faa1944e885c"
       url: "https://pub.dev"
     source: hosted
-    version: "27.2.5"
+    version: "26.2.14"
   syncfusion_flutter_core:
     dependency: transitive
     description:
       name: syncfusion_flutter_core
-      sha256: "325f519ce4ad8edd81811c21b853d72018529e353584490824da0555156ba076"
+      sha256: "6e67726b85812afc7105725a23620b876ab7f6b04b8410e211330ffb8c2cdbe8"
       url: "https://pub.dev"
     source: hosted
-    version: "27.2.5"
+    version: "26.2.14"
   syncfusion_flutter_datepicker:
     dependency: transitive
     description:
       name: syncfusion_flutter_datepicker
-      sha256: "2177e49eb8a1c0fce7081e40f5613c986d00e5e63cbeb98a6012f65ca156bfc7"
+      sha256: "9d0e1db2f49cef3fde28c5a42c7ef9b64fc9a49c52557eb6961cd41af3cf8adc"
       url: "https://pub.dev"
     source: hosted
-    version: "27.2.5"
+    version: "26.2.14"
+  syncfusion_localizations:
+    dependency: "direct main"
+    description:
+      name: syncfusion_localizations
+      sha256: "99c3586b2502d2bc4b4c8286c83061b8bf2b5c9e4617433b7576f3d1409d099e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "26.2.14"
   term_glyph:
     dependency: transitive
     description:
